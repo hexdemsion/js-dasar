@@ -21,3 +21,12 @@ function cocokkanPassword() {
 		document.getElementById("passBaruConfirm").style.border = "1px solid green"
 	}
 }
+
+function cekGender() {
+	var jenis_kelamin = document.getElementById("gender").value
+	if (jenis_kelamin == "female") {
+		alert("Hay cewek")
+	}else{
+		console.log("ah cowok nih")
+	}
+}
