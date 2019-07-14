@@ -30,3 +30,11 @@ function cekGender() {
 		console.log("ah cowok nih")
 	}
 }
+
+function resetWarna() {
+	document.getElementById("judul").style.color="black"
+}
+
+function gedeinFont(elem) {
+	elem.style.fontSize="60px"
+}
